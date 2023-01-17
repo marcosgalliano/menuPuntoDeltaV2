@@ -1,0 +1,13 @@
+body{
+    background-image: url(../assets/fondoMenu.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 120px 800px 120px;
+}
