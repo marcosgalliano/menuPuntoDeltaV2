@@ -1,14 +1,14 @@
 // COMIDAS
 
 .comidas{
-    height: 530px;
+    height: 500px;
     width: 100%;
     display: grid;
     grid-template-areas: 
     "titulo titulo"
     "bloque1 bloque2";
     grid-template-columns: 50% 50%;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 15% 85%;
 }
 
 .comidas ul{
@@ -22,11 +22,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
+    z-index: 20;
 }
 
 .titulo div{
     height: 40px;
-    width: 300px;
+    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,7 +57,7 @@
 }
 
 .primerCuadrado ul > :first-child{
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .segundoCuadrado{
@@ -74,7 +76,7 @@
 }
 
 .segundoCuadrado ul > :first-child{
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 
