@@ -1,7 +1,7 @@
 // COMIDAS
 
 .comidas{
-    height: 400px;
+    height: 530px;
     width: 100%;
     display: grid;
     grid-template-areas: 
@@ -31,7 +31,7 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    border-radius: 3px;
+    border-radius: 7px;
 }
 
 .titulo h1{
@@ -42,22 +42,39 @@
 .primerCuadrado{
     grid-area: bloque1;
     text-align: center;
-    background-color: white;
-    border-radius: 20px;
-    margin-left: 10px;
+    background-color: rgba($color: #8f8f8f, $alpha: .3);
+    border-radius: 8px;
+    margin-left: 6px;
+    color: white;
+    border: 1px solid white;
+    font-family: 'Raleway', sans-serif;
 }
 
 .primerCuadrado ul > :not(:first-child){
     margin-top: 50px;
 }
 
+.primerCuadrado ul > :first-child{
+    margin-top: 10px;
+}
+
 .segundoCuadrado{
     grid-area: bloque2;
     text-align: center;
+    background-color: rgba($color: #8f8f8f, $alpha: .3);
+    border-radius: 8px;
+    margin-right: 6px;
+    color: white;
+    border: 1px solid white;
+    font-family: 'Raleway', sans-serif;
 }
 
 .segundoCuadrado ul > :not(:first-child){
     margin-top: 50px;
+}
+
+.segundoCuadrado ul > :first-child{
+    margin-top: 10px;
 }
 
 

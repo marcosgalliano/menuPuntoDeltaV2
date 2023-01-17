@@ -11,7 +11,7 @@ body {
 }
 
 .comidas {
-  height: 400px;
+  height: 530px;
   width: 100%;
   display: grid;
   grid-template-areas: "titulo titulo" "bloque1 bloque2";
@@ -37,7 +37,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: white;
-  border-radius: 3px;
+  border-radius: 7px;
 }
 
 .titulo h1 {
@@ -47,22 +47,39 @@ body {
 .primerCuadrado {
   grid-area: bloque1;
   text-align: center;
-  background-color: white;
-  border-radius: 20px;
-  margin-left: 10px;
+  background-color: rgba(143, 143, 143, 0.3);
+  border-radius: 8px;
+  margin-left: 6px;
+  color: white;
+  border: 1px solid white;
+  font-family: "Raleway", sans-serif;
 }
 
 .primerCuadrado ul > :not(:first-child) {
   margin-top: 50px;
 }
 
+.primerCuadrado ul > :first-child {
+  margin-top: 10px;
+}
+
 .segundoCuadrado {
   grid-area: bloque2;
   text-align: center;
+  background-color: rgba(143, 143, 143, 0.3);
+  border-radius: 8px;
+  margin-right: 6px;
+  color: white;
+  border: 1px solid white;
+  font-family: "Raleway", sans-serif;
 }
 
 .segundoCuadrado ul > :not(:first-child) {
   margin-top: 50px;
+}
+
+.segundoCuadrado ul > :first-child {
+  margin-top: 10px;
 }
 
 * {
@@ -76,6 +93,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 40px;
 }
 
 main {
