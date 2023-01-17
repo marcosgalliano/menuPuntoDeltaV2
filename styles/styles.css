@@ -1,3 +1,70 @@
+body {
+  background-image: url(../assets/fondoMenu.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  grid-template-columns: 100%;
+  grid-template-rows: 120px 800px 120px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.comidas {
+  height: 400px;
+  width: 100%;
+  display: grid;
+  grid-template-areas: "titulo titulo" "bloque1 bloque2";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 20% 80%;
+}
+
+.comidas ul {
+  list-style: none;
+}
+
+.titulo {
+  grid-area: titulo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo div {
+  height: 40px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.titulo h1 {
+  color: black;
+}
+
+.primerCuadrado {
+  grid-area: bloque1;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.primerCuadrado ul > :not(:first-child) {
+  margin-top: 50px;
+}
+
+.segundoCuadrado {
+  grid-area: bloque2;
+  text-align: center;
+}
+
+.segundoCuadrado ul > :not(:first-child) {
+  margin-top: 50px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,15 +84,4 @@ main {
 
 footer {
   grid-area: footer;
-}
-
-body {
-  background-image: url(../assets/fondoMenu.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  display: grid;
-  grid-template-areas: "header" "main" "footer";
-  grid-template-columns: 100%;
-  grid-template-rows: 120px 800px 120px;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,66 @@
+// COMIDAS
+
+.comidas{
+    height: 400px;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "titulo titulo"
+    "bloque1 bloque2";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 80%;
+}
+
+.comidas ul{
+    list-style: none;
+}
+
+//TITULO
+
+.titulo{
+    grid-area: titulo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo div{
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.titulo h1{
+    color: black;
+}
+
+//CUADRADOS
+.primerCuadrado{
+    grid-area: bloque1;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.primerCuadrado ul > :not(:first-child){
+    margin-top: 50px;
+}
+
+.segundoCuadrado{
+    grid-area: bloque2;
+    text-align: center;
+}
+
+.segundoCuadrado ul > :not(:first-child){
+    margin-top: 50px;
+}
+
+
+
+
+
