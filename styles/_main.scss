@@ -1,7 +1,7 @@
 // COMIDAS
 
 .comidas{
-    height: 500px;
+    height: 600px;
     width: 100%;
     display: grid;
     grid-template-areas: 
@@ -9,6 +9,7 @@
     "bloque1 bloque2";
     grid-template-columns: 50% 50%;
     grid-template-rows: 15% 85%;
+    margin-top: 37px;
 }
 
 .comidas ul{
@@ -22,13 +23,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 70px;
     z-index: 20;
 }
 
 .titulo div{
     height: 40px;
-    width: 200px;
+    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,6 +42,8 @@
 }
 
 //CUADRADOS
+
+// PRIMER CUADRADO
 .primerCuadrado{
     grid-area: bloque1;
     text-align: center;
@@ -54,11 +57,15 @@
 
 .primerCuadrado ul > :not(:first-child){
     margin-top: 50px;
+    font-size: 20px;
 }
 
 .primerCuadrado ul > :first-child{
-    margin-top: 15px;
+    margin-top: 20px;
+    font-size: 20px;
 }
+
+// SEGUNDO CUADRADO
 
 .segundoCuadrado{
     grid-area: bloque2;
@@ -73,11 +80,99 @@
 
 .segundoCuadrado ul > :not(:first-child){
     margin-top: 50px;
+    font-size: 20px;
 }
 
 .segundoCuadrado ul > :first-child{
-    margin-top: 15px;
+    margin-top: 20px;
+    font-size: 20px;
 }
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+//IMAGENES
+
+.imagenesDeco{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    margin-top: 10px;
+}
+
+.imagenesDeco img{
+    width: 100%;
+    height: 100%;
+}
+
+.imagenesDeco img:first-child{
+    transform: rotate(20deg);
+}
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+//BEBIDAS
+
+.bebidas{
+    display: grid;
+    grid-template-areas: 
+    "titulo2"
+    "cuadrado";
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 90%;
+    height: 500px;
+    margin-top: 10px;
+}
+
+//TITULO
+
+.titulo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 10px;
+    z-index: 7;
+}
+
+.titulo2 div{
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 7px;
+}
+
+//BEBIDAS UL LI (CUADRADO)
+
+.bebidasCuadrado{
+    background-color: rgba($color: #8f8f8f, $alpha: .3);
+    width: 96%;
+    margin: auto;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+//BEBIDAS UL LI
+
+.bebidasCuadrado ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    text-align: center;
+    list-style: none;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.bebidasCuadrado ul li{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
 
 
 
