@@ -2,6 +2,7 @@ body {
   background-image: url(../assets/fondoMenu.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   display: grid;
   grid-template-areas: "header" "main" "footer";
   grid-template-columns: 100%;
