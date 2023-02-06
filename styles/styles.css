@@ -10,7 +10,7 @@ body {
 }
 
 .comidas {
-  height: 600px;
+  height: 745px;
   width: 100%;
   display: grid;
   grid-template-areas: "titulo titulo" "bloque1 bloque2";
@@ -28,7 +28,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 70px;
+  margin-top: 96px;
   z-index: 20;
 }
 
@@ -49,11 +49,11 @@ body {
 .primerCuadrado {
   grid-area: bloque1;
   text-align: center;
-  background-color: rgba(143, 143, 143, 0.3);
+  background-color: rgba(49, 49, 49, 0.6);
   border-radius: 8px;
   margin-left: 6px;
   color: white;
-  border: 1px solid white;
+  border: 3px solid rgb(15, 15, 15);
   font-family: "Raleway", sans-serif;
 }
 
@@ -67,14 +67,19 @@ body {
   font-size: 20px;
 }
 
+.primerCuadrado ul li h6 {
+  font-size: 16px;
+  margin-top: 8px;
+}
+
 .segundoCuadrado {
   grid-area: bloque2;
   text-align: center;
-  background-color: rgba(143, 143, 143, 0.3);
+  background-color: rgba(49, 49, 49, 0.6);
   border-radius: 8px;
   margin-right: 6px;
   color: white;
-  border: 1px solid white;
+  border: 3px solid rgb(15, 15, 15);
   font-family: "Raleway", sans-serif;
 }
 
@@ -86,6 +91,11 @@ body {
 .segundoCuadrado ul > :first-child {
   margin-top: 20px;
   font-size: 20px;
+}
+
+.segundoCuadrado ul li h6 {
+  font-size: 16px;
+  margin-top: 8px;
 }
 
 .imagenesDeco {
@@ -133,11 +143,11 @@ body {
 }
 
 .bebidasCuadrado {
-  background-color: rgba(143, 143, 143, 0.3);
+  background-color: rgba(49, 49, 49, 0.6);
   width: 96%;
   margin: auto;
   height: 100%;
-  border: 1px solid white;
+  border: 3px solid rgb(15, 15, 15);
   border-radius: 8px;
 }
 
@@ -168,7 +178,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 70px;
 }
 
 main {
