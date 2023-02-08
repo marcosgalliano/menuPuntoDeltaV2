@@ -11,7 +11,7 @@ let cono = document.getElementById("cono");
 let conoCheddar = document.getElementById("conoCheddar");
 let pancho = document.getElementById("pancho");
 let veggie = document.getElementById("veggie");
-let salchiPapa = document.getElementById("salchiPapa")
+let salchiPapa = document.getElementById("salchiPapa");
 
 
 // DIAS
