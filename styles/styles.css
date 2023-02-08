@@ -1,5 +1,6 @@
 body {
   background: url(../assets/fondoMenu2.jpg) fixed;
+  background-size: cover;
   display: grid;
   grid-template-areas: "header" "main" "footer";
   grid-template-columns: 100%;
