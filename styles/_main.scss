@@ -1,4 +1,4 @@
-/* // COMIDAS
+// COMIDAS
 
 .comidas{
     height: 745px;
@@ -9,7 +9,7 @@
     "bloque1 bloque2";
     grid-template-columns: 50% 50%;
     grid-template-rows: 15% 85%;
-    margin-top: 37px;
+    margin-top: 10px;
 }
 
 .comidas ul{
@@ -20,25 +20,22 @@
 
 .titulo{
     grid-area: titulo;
+    margin-top: 50px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 96px;
-    z-index: 20;
+    justify-content: flex-start;
+    margin-left: 30px;
 }
 
 .titulo div{
-    height: 40px;
-    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
     border-radius: 7px;
 }
 
 .titulo h1{
-    color: black;
+    color: rgb(219, 197, 4);
+    font-size: 40px;
 }
 
 //CUADRADOS
@@ -129,29 +126,22 @@
     "cuadrado";
     grid-template-columns: 100%;
     grid-template-rows: 10% 90%;
-    height: 500px;
-    margin-top: 10px;
+    height: 600px;
+    margin-top: 30px;
 }
 
 //TITULO
 
 .titulo2{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    margin-top: 30px;
-    margin-left: 10px;
-    z-index: 7;
+    margin-left: 30px;
 }
 
-.titulo2 div{
-    height: 40px;
-    width: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    border-radius: 7px;
+.titulo2 h1{
+    color: rgb(219, 197, 4);
+    font-size: 40px;
 }
 
 //BEBIDAS UL LI (CUADRADO)
@@ -188,4 +178,3 @@
 
 
 
- */

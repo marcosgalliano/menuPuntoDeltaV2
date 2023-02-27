@@ -1,6 +1,8 @@
 body{
     background: url(../assets/fondoMenu2.jpg) fixed;
-/*     background-size: cover;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
     display: grid;
     grid-template-areas: 
     "header"
@@ -8,5 +10,5 @@ body{
     "footer";
     grid-template-columns: 100%;
     grid-template-rows: 120px 1800px 120px;
-    font-family: 'Raleway', sans-serif; */
+    font-family: 'Raleway', sans-serif;
 }

@@ -1,207 +1,163 @@
 body {
   background: url(../assets/fondoMenu2.jpg) fixed;
-  /*     background-size: cover;
-      display: grid;
-      grid-template-areas: 
-      "header"
-      "main"
-      "footer";
-      grid-template-columns: 100%;
-      grid-template-rows: 120px 1800px 120px;
-      font-family: 'Raleway', sans-serif; */
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  grid-template-columns: 100%;
+  grid-template-rows: 120px 1800px 120px;
+  font-family: "Raleway", sans-serif;
 }
 
-/* // COMIDAS
-
-.comidas{
-    height: 745px;
-    width: 100%;
-    display: grid;
-    grid-template-areas: 
-    "titulo titulo"
-    "bloque1 bloque2";
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 15% 85%;
-    margin-top: 37px;
+.comidas {
+  height: 745px;
+  width: 100%;
+  display: grid;
+  grid-template-areas: "titulo titulo" "bloque1 bloque2";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 15% 85%;
+  margin-top: 10px;
 }
 
-.comidas ul{
-    list-style: none;
+.comidas ul {
+  list-style: none;
 }
 
-//TITULO
-
-.titulo{
-    grid-area: titulo;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 96px;
-    z-index: 20;
+.titulo {
+  grid-area: titulo;
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 30px;
 }
 
-.titulo div{
-    height: 40px;
-    width: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    border-radius: 7px;
+.titulo div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
 }
 
-.titulo h1{
-    color: black;
+.titulo h1 {
+  color: rgb(219, 197, 4);
+  font-size: 40px;
 }
 
-//CUADRADOS
-
-// PRIMER CUADRADO
-.primerCuadrado{
-    grid-area: bloque1;
-    text-align: center;
-    background-color: rgba($color: #313131, $alpha: .6);
-    border-radius: 8px;
-    margin-left: 6px;
-    color: white;
-    border: 3px solid rgb(15, 15, 15);
-    font-family: 'Raleway', sans-serif;
+.primerCuadrado {
+  grid-area: bloque1;
+  text-align: center;
+  background-color: rgba(49, 49, 49, 0.6);
+  border-radius: 8px;
+  margin-left: 6px;
+  color: white;
+  border: 3px solid rgb(15, 15, 15);
+  font-family: "Raleway", sans-serif;
 }
 
-.primerCuadrado ul > :not(:first-child){
-    margin-top: 50px;
-    font-size: 20px;
+.primerCuadrado ul > :not(:first-child) {
+  margin-top: 50px;
+  font-size: 20px;
 }
 
-.primerCuadrado ul > :first-child{
-    margin-top: 20px;
-    font-size: 20px;
+.primerCuadrado ul > :first-child {
+  margin-top: 20px;
+  font-size: 20px;
 }
 
-.primerCuadrado ul li h6{
-    font-size: 16px;
-    margin-top: 8px;
+.primerCuadrado ul li h6 {
+  font-size: 16px;
+  margin-top: 8px;
 }
 
-// SEGUNDO CUADRADO
-
-.segundoCuadrado{
-    grid-area: bloque2;
-    text-align: center;
-    background-color: rgba($color: #313131, $alpha: .6);
-    border-radius: 8px;
-    margin-right: 6px;
-    color: white;
-    border: 3px solid rgb(15, 15, 15);
-    font-family: 'Raleway', sans-serif;
+.segundoCuadrado {
+  grid-area: bloque2;
+  text-align: center;
+  background-color: rgba(49, 49, 49, 0.6);
+  border-radius: 8px;
+  margin-right: 6px;
+  color: white;
+  border: 3px solid rgb(15, 15, 15);
+  font-family: "Raleway", sans-serif;
 }
 
-.segundoCuadrado ul > :not(:first-child){
-    margin-top: 50px;
-    font-size: 20px;
+.segundoCuadrado ul > :not(:first-child) {
+  margin-top: 50px;
+  font-size: 20px;
 }
 
-.segundoCuadrado ul > :first-child{
-    margin-top: 20px;
-    font-size: 20px;
+.segundoCuadrado ul > :first-child {
+  margin-top: 20px;
+  font-size: 20px;
 }
 
-.segundoCuadrado ul li h6{
-    font-size: 16px;
-    margin-top: 8px;
+.segundoCuadrado ul li h6 {
+  font-size: 16px;
+  margin-top: 8px;
 }
 
-/////////////////////////////////////////////////////////////////////////////////////
-
-//IMAGENES
-
-.imagenesDeco{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 100%;
-    margin-top: 10px;
+.imagenesDeco {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  margin-top: 10px;
 }
 
-.imagenesDeco img{
-    width: 100%;
-    height: 100%;
+.imagenesDeco img {
+  width: 100%;
+  height: 100%;
 }
 
-.imagenesDeco img:first-child{
-    transform: rotate(20deg);
+.imagenesDeco img:first-child {
+  transform: rotate(20deg);
 }
 
-/////////////////////////////////////////////////////////////////////////////////////
-
-//BEBIDAS
-
-.bebidas{
-    display: grid;
-    grid-template-areas: 
-    "titulo2"
-    "cuadrado";
-    grid-template-columns: 100%;
-    grid-template-rows: 10% 90%;
-    height: 500px;
-    margin-top: 10px;
+.bebidas {
+  display: grid;
+  grid-template-areas: "titulo2" "cuadrado";
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 90%;
+  height: 600px;
+  margin-top: 30px;
 }
 
-//TITULO
-
-.titulo2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    margin-left: 10px;
-    z-index: 7;
+.titulo2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 30px;
 }
 
-.titulo2 div{
-    height: 40px;
-    width: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    border-radius: 7px;
+.titulo2 h1 {
+  color: rgb(219, 197, 4);
+  font-size: 40px;
 }
 
-//BEBIDAS UL LI (CUADRADO)
-
-.bebidasCuadrado{
-    background-color: rgba($color: #313131, $alpha: .6);
-    width: 96%;
-    margin: auto;
-    height: 100%;
-    border: 3px solid rgb(15, 15, 15);
-    border-radius: 8px;
+.bebidasCuadrado {
+  background-color: rgba(49, 49, 49, 0.6);
+  width: 96%;
+  margin: auto;
+  height: 100%;
+  border: 3px solid rgb(15, 15, 15);
+  border-radius: 8px;
 }
 
-//BEBIDAS UL LI
-
-.bebidasCuadrado ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    color: white;
-    text-align: center;
-    list-style: none;
-    flex-wrap: wrap;
-    height: 100%;
+.bebidasCuadrado ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
+  text-align: center;
+  list-style: none;
+  flex-wrap: wrap;
+  height: 100%;
 }
 
-.bebidasCuadrado ul li{
-    margin-left: 10px;
-    font-size: 20px;
+.bebidasCuadrado ul li {
+  margin-left: 10px;
+  font-size: 20px;
 }
 
-
-
-
-
-
- */
 * {
   margin: 0;
   padding: 0;
@@ -213,7 +169,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 70px;
+  margin-top: 90px;
 }
 
 main {
