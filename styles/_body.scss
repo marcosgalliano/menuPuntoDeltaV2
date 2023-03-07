@@ -1,16 +1,15 @@
 body{
-    background: url(../assets/fondoMenu2.jpg);
+    background: url(../assets/fondodeMenu_1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
     display: grid;
     grid-template-areas: 
     "header"
     "main"
     "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 120px 1800px 120px;
+    grid-template-rows: 120px 2300px 120px;
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
     height: 100%;
