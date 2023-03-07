@@ -1,7 +1,9 @@
 body{
-    background: url(../assets/fondoMenu2.jpg) fixed;
-    background-size: 1000px;
+    background: url(../assets/fondoMenu2.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     display: grid;
     grid-template-areas: 
     "header"
