@@ -1,6 +1,6 @@
 body {
   background: url(../assets/fondoMenu2.jpg) fixed;
-  background-size: 1000px;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: grid;
@@ -8,6 +8,8 @@ body {
   grid-template-columns: 100%;
   grid-template-rows: 120px 1800px 120px;
   font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
+  height: 100%;
 }
 
 .comidas {
