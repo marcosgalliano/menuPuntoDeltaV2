@@ -1,0 +1,54 @@
+// CERVEZAS
+
+.cervezas{
+    margin-top: 30px;
+    height: 400px;
+}
+
+// TITULO
+
+.titulo3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.titulo3 h1{
+    color: rgb(219, 197, 4);
+    font-size: 40px;
+}
+
+// CUADRADO
+
+.cervezasCuadrado{
+    background-color: rgba($color: #313131, $alpha: .6);
+    width: 96%;
+    margin: auto;
+    height: 100%;
+    border: 3px solid rgb(15, 15, 15);
+    border-radius: 8px;
+}
+
+// CERVEZAS UL LI
+
+.cervezasCuadrado ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    text-align: center;
+    list-style: none;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.cervezasCuadrado ul li{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.cervezasCuadrado ul > :first-child{
+    color:  rgb(219, 197, 4);
+
+}

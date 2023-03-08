@@ -16,26 +16,26 @@ let salchiPapa = document.getElementById("salchiPapa");
 
 // DIAS
 if (dayOfWeek === 7) {
-    lomo.innerHTML = "$1200";
-    bondiola.innerHTML = "$1200";
-    completa.innerHTML = "$850";
-    simple.innerHTML = "$650";
-    dobleCheddar.innerHTML = "$1000";
-    cono.innerHTML = "$400";
+    lomo.innerHTML = "$2000";
+    bondiola.innerHTML = "$2000";
+    completa.innerHTML = "$1600";
+    simple.innerHTML = "$1100";
+    dobleCheddar.innerHTML = "$1800";
+    cono.innerHTML = "$500";
     conoCheddar.innerHTML = "$650";
     pancho.innerHTML = "$750";
     veggie.innerHTML = "$850";
-    salchiPapa.innerHTML = "$750";
+    salchiPapa.innerHTML = "$1100";
 
 } else {
-    lomo.innerHTML = "$1000";
-    bondiola.innerHTML = "$1000";
-    completa.innerHTML = "$750";
-    simple.innerHTML = "$550";
-    dobleCheddar.innerHTML = "$900";
-    cono.innerHTML = "$350";
-    conoCheddar.innerHTML = "$550";
-    pancho.innerHTML = "$450";
-    veggie.innerHTML = "$650";
-    salchiPapa.innerHTML = "$600";
+    lomo.innerHTML = "$1800";
+    bondiola.innerHTML = "$1800";
+    completa.innerHTML = "$1400";
+    simple.innerHTML = "$1000";
+    dobleCheddar.innerHTML = "$1600";
+    cono.innerHTML = "$500";
+    conoCheddar.innerHTML = "$650";
+    pancho.innerHTML = "$650";
+    veggie.innerHTML = "$750";
+    salchiPapa.innerHTML = "$1000";
 }

@@ -1,0 +1,100 @@
+// COMIDAS
+
+.comidas{
+    height: 745px;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "titulo titulo"
+    "bloque1 bloque2";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 15% 85%;
+    margin-top: 10px;
+}
+
+.comidas ul{
+    list-style: none;
+}
+
+.comidas h6{
+    color:  rgb(219, 197, 4);
+}
+
+//TITULO
+
+.titulo{
+    grid-area: titulo;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+.titulo div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.titulo h1{
+    color: rgb(219, 197, 4);
+    font-size: 40px;
+}
+
+//CUADRADOS
+
+// PRIMER CUADRADO
+.primerCuadrado{
+    grid-area: bloque1;
+    text-align: center;
+    background-color: rgba($color: #313131, $alpha: .6);
+    border-radius: 8px;
+    margin-left: 6px;
+    color: white;
+    border: 3px solid rgb(15, 15, 15);
+    font-family: 'Raleway', sans-serif;
+}
+
+.primerCuadrado ul > :not(:first-child){
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.primerCuadrado ul > :first-child{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.primerCuadrado ul li h6{
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+// SEGUNDO CUADRADO
+
+.segundoCuadrado{
+    grid-area: bloque2;
+    text-align: center;
+    background-color: rgba($color: #313131, $alpha: .6);
+    border-radius: 8px;
+    margin-right: 6px;
+    color: white;
+    border: 3px solid rgb(15, 15, 15);
+    font-family: 'Raleway', sans-serif;
+}
+
+.segundoCuadrado ul > :not(:first-child){
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.segundoCuadrado ul > :first-child{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.segundoCuadrado ul li h6{
+    font-size: 16px;
+    margin-top: 8px;
+}
