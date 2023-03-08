@@ -9,8 +9,30 @@ body{
     "main"
     "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 120px 2300px 120px;
+    grid-template-rows: 120px 2100px 120px;
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
     height: 100%;
+}
+
+.btn{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
